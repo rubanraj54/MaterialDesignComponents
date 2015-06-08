@@ -29,6 +29,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="24dp"
+            android:layout_marginTop="15dp"
             android:background="#1E88E5"
             materialdesign:animate="false"
             materialdesign:iconDrawable="@drawable/new_email" />
@@ -37,44 +38,52 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#1E88E5"
+            android:layout_marginTop="15dp"
             materialdesign:iconDrawable="@drawable/new_email" />
         <com.gc.materialdesign.views.CheckBox
             android:id="@+id/checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:background="#1E88E5"
             materialdesign:check="true" />
         <com.gc.materialdesign.views.Switch
             android:id="@+id/switchView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:background="#1E88E5"
             materialdesign:check="true" />
         <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
             android:id="@+id/progressBarCircularIndeterminate"
             android:layout_width="32dp"
             android:layout_height="32dp"
+            android:layout_marginTop="15dp"
             android:background="#1E88E5" />
         <com.gc.materialdesign.views.ProgressBarIndeterminate
             android:id="@+id/progressBarIndeterminate"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="#1E88E5" />
         <com.gc.materialdesign.views.ProgressBarIndeterminateDeterminate
             android:id="@+id/progressBarIndeterminateDeterminate"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="#1E88E5" />
         <com.gc.materialdesign.views.ProgressBarDeterminate
             android:id="@+id/progressDeterminate"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="#1E88E5" />
         <com.gc.materialdesign.views.Slider
             android:id="@+id/slider"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#1E88E5"
+            android:layout_marginTop="15dp"
             materialdesign:max="50"
             materialdesign:min="0"
             />
@@ -83,6 +92,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#1E88E5"
+            android:layout_marginTop="15dp"
             materialdesign:max="50"
             materialdesign:min="0"
             materialdesign:showNumberIndicator="true"/>
