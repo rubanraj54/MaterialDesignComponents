@@ -14,14 +14,14 @@
         android:layout_height="wrap_content"
         android:background="#1E88E5"
         android:layout_marginTop="10dp"
-        android:text="Button" />
+        android:text="Flat Button" />
     <com.gc.materialdesign.views.ButtonRectangle
-        android:id="@+id/button"
+        android:id="@+id/buttonRectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1E88E5"
         android:layout_marginTop="15dp"
-        android:text="Button" />
+        android:text="Rectangle Button" />
         <com.gc.materialdesign.views.ButtonFloat
             android:id="@+id/buttonFloat"
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
             android:layout_marginRight="24dp"
             android:layout_marginTop="15dp"
             android:background="#1E88E5"
-            materialdesign:animate="false"
+            materialdesign:animate="true"
             materialdesign:iconDrawable="@drawable/new_email" />
         <com.gc.materialdesign.views.ButtonFloatSmall
             android:id="@+id/buttonFloatSmall"
@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:background="#1E88E5"
             android:layout_marginTop="15dp"
+            materialdesign:animate="true"
             materialdesign:iconDrawable="@drawable/new_email" />
         <com.gc.materialdesign.views.CheckBox
             android:id="@+id/checkBox"
@@ -72,30 +73,23 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="#1E88E5" />
-        <com.gc.materialdesign.views.ProgressBarDeterminate
-            android:id="@+id/progressDeterminate"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="#1E88E5" />
-        <com.gc.materialdesign.views.Slider
-            android:id="@+id/slider"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#1E88E5"
-            android:layout_marginTop="15dp"
-            materialdesign:max="50"
-            materialdesign:min="0"
-            />
         <com.gc.materialdesign.views.Slider
             android:id="@+id/sliderWithNumberIndicator"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#1E88E5"
-            android:layout_marginTop="15dp"
             materialdesign:max="50"
             materialdesign:min="0"
             materialdesign:showNumberIndicator="true"/>
+        <com.gc.materialdesign.views.Slider
+            android:id="@+id/slider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E88E5"
+            materialdesign:max="50"
+            materialdesign:min="0"
+            />
+
     </LinearLayout>
 </com.gc.materialdesign.views.ScrollView>
 
